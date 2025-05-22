@@ -197,7 +197,7 @@ export const projects: Project[] = [
     "Tested the system for usability and error handling",
     "Documented the system design and usage instructions"
   ],
-  "image": "/images/projects/Vrfusenet/hyacinth.png",  // You can update this path as needed
+  "image": "/images/projects/Vrfusenet/Hyacinth.png",  // You can update this path as needed
   "github": "https://github.com/shuvashisofficial/Hyacinth",
   "liveUrl": "", 
   "featured": true

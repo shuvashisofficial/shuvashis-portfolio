@@ -179,7 +179,7 @@ export function Hero() {
           >
             <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-full">
               <Image
-                src="/images/profile.jpg"
+                src="/images/profile 2.jpg"
                 alt="Shuvashis Sarker"
                 fill
                 className="object-cover"

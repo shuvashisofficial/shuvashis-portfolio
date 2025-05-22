@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Phone, Copyright, ExternalLink, Heart, Facebook, GraduationCap} from "lucide-react";
+import {Mail, Phone, Copyright, ExternalLink, GraduationCap} from "lucide-react";
 import { FaResearchgate,FaFacebook,FaLinkedin,FaGithub} from "react-icons/fa";
 
 import { Button } from "@/components/ui/button";

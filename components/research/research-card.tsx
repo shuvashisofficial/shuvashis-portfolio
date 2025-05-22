@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ExternalLink, BookOpen, FileSearch, Library, GraduationCap} from "lucide-react";
+import { ArrowRight,GraduationCap} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { FaResearchgate,  } from "react-icons/fa";

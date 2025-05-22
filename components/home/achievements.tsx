@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Trophy, Award, BookOpen, Code, Cpu, Zap } from "lucide-react";
+import {Award, BookOpen, Code, Zap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 

@@ -6,8 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { Research } from "@/data/research";
-import { FaResearchgate,  } from "react-icons/fa";
-import { SiIeee,SiArxiv, SiAcm } from "react-icons/si";
 interface ResearchDetailsProps {
   research: Research;
   onBack: () => void;

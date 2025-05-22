@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowRight, Book, Download, Github, GraduationCap, Mail, Phone, } from "lucide-react";
+import { ArrowRight, Download, GraduationCap, Mail} from "lucide-react";
 import { FaResearchgate,FaFacebook,FaLinkedin,FaGithub} from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";

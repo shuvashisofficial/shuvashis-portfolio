@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Github, ExternalLink } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { FaGithub,  } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -133,7 +134,7 @@ export function FeaturedProjects() {
                           rel="noopener noreferrer"
                           aria-label="GitHub"
                         >
-                          <Github className="h-4 w-4" />
+                          <FaGithub className="h-4 w-4" />
                         </a>
                       </Button>
                     )}

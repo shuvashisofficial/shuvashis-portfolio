@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Github, ExternalLink } from "lucide-react";
+import { ArrowRight,ExternalLink } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -67,7 +68,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         {project.github && (
           <Button asChild variant="ghost" size="icon">
             <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <Github className="h-4 w-4" />
+              <FaGithub className="h-4 w-4" />
             </a>
           </Button>
         )}

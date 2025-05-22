@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, MapPin } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Experience } from "@/data/experience";

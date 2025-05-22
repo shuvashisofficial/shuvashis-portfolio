@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { Plus, Home, User, Briefcase, Code, BookOpen, Mail, Github, Phone, X, Facebook } from "lucide-react";
+import { Plus, Home, User, Briefcase, Code, BookOpen, Mail, Github, Phone, X } from "lucide-react";
 import { FaLinkedin , FaFacebook} from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import { 

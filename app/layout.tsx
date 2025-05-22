@@ -18,13 +18,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     //url: "https://achyutkatiyar.com",
-    title: "Shuvashis Sarker | Full Stack Developer",
+    title: "Shuvashis Sarker | AI researcher",
     description: "Full Stack Developer & Blockchain and Machine Learning Enthusiast with expertise in Next.js, React, and blockchain technologies.",
     siteName: "Shuvashis Sarker",
     locale: "en_US",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Shuvashis Sarker - Portfolio",

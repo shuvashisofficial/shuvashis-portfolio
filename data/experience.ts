@@ -29,7 +29,8 @@ export interface Experience {
     "Performed feature engineering, data preprocessing, and hyperparameter tuning for structured and unstructured datasets.",
     "Integrated trained ML models into RESTful APIs for use in enterprise software.",
     "Prepared detailed documentation and presented findings to the technical team for iterative improvements."
-  ]
+  ],
+  type: "work"
 },
     {
   id: "adjunct-lecturer-seu",

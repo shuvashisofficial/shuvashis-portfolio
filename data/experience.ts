@@ -15,6 +15,23 @@ export interface Experience {
   export const experiences: Experience[] = [
     // Regular job positions
     {
+  id: "software-engineer-intern-technohaven",
+  logoUrl: "/logos/technohaven.jpg", // Ensure the image exists at /public/logos/technohaven.png
+  title: "Software Engineer (AI/ML) Intern",
+  company: "Technohaven Company Ltd.",
+  location: "Dhaka, Bangladesh",
+  startDate: "August 2025",
+  endDate: "Present",
+  description: "Worked as an AI/ML intern in developing intelligent software solutions for business automation and data-driven decision-making. Contributed to machine learning model development and integration into production environments.",
+  achievements: [
+    "Developed and fine-tuned deep learning models for text classification and image-based document analysis.",
+    "Collaborated with the AI team to implement OCR systems using Tesseract and deep neural networks for Bangla document digitization.",
+    "Performed feature engineering, data preprocessing, and hyperparameter tuning for structured and unstructured datasets.",
+    "Integrated trained ML models into RESTful APIs for use in enterprise software.",
+    "Prepared detailed documentation and presented findings to the technical team for iterative improvements."
+  ]
+},
+    {
   id: "adjunct-lecturer-seu",
   logoUrl: "/logos/seu.png", // Ensure the image exists at /public/logos/seu-logo.png
   title: "Adjunct Lecturer",
@@ -22,15 +39,17 @@ export interface Experience {
   location: "Dhaka, Bangladesh",
   startDate: "February 2025",
   endDate: "Present",
-  description: "Teaching Digital Logic Design (DLD) theory and Algorithm Laboratory courses to undergraduate Computer Science students.",
+  description: "Teaching core undergraduate courses including Digital Logic Design (DLD) theory, Algorithm Laboratory, Microprocessor Theory & Lab, and Computer Fundamentals. Responsibilities include delivering lectures, designing practical sessions, and mentoring students in both theoretical concepts and hands-on implementation.",
   achievements: [
-    "Delivering undergraduate courses including Digital Logic Design and Algorithm, with a focus on applied learning.",
-    "Guiding students through assignments and conceptual problem solving while contributing to course design.",
-    "Designed interactive lab sessions for algorithm implementation and complexity analysis.",
-    "Delivered theoretical and practical lessons on combinational and sequential circuits in DLD.",
-    "Mentored students in problem-solving, coding best practices, and optimization techniques.",
-    "Received positive student feedback for bridging theoretical concepts with practical applications."
-  ],
+  "Delivering undergraduate courses including Digital Logic Design, Algorithm, Microprocessor, and Computer Fundamentals with a focus on applied learning.",
+  "Guiding students through assignments and conceptual problem solving while contributing to course design.",
+  "Designed interactive lab sessions for algorithm implementation, microprocessor programming (8085/8086), and complexity analysis.",
+  "Delivered theoretical and practical lessons on combinational and sequential circuits in DLD, as well as basic computer architecture and number systems in Computer Fundamentals.",
+  "Conducted hands-on sessions in Microprocessor Lab covering instruction set simulation, interfacing techniques, and real-time assembly programming tasks.",
+  "Mentored students in problem-solving, coding best practices, and optimization techniques across all core courses.",
+  "Received positive student feedback for bridging theoretical concepts with practical applications."
+],
+
   type: "work"
 },
 

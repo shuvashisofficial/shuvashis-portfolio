@@ -1,7 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, BookOpen, ExternalLink } from "lucide-react";
+import { 
+  ArrowRight, 
+  BookOpen, 
+  ExternalLink, 
+  FileText, 
+  GraduationCap,
+  Database
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -25,12 +32,13 @@ export function FeaturedResearch() {
         new Date(b.publishDate || "").getTime() -
         new Date(a.publishDate || "").getTime()
     );
+
   // Responsive config for react-multi-carousel
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
-      slidesToSlide: 1, // Slide one project at a time
+      slidesToSlide: 1,
     },
     tablet: {
       breakpoint: { max: 1024, min: 640 },
@@ -43,6 +51,7 @@ export function FeaturedResearch() {
       slidesToSlide: 1,
     },
   };
+
   return (
     <section id="research" className="py-24 md:py-48 bg-muted/0">
       <div className="container px-4 md:px-6 mx-auto text-center space-y-4">
@@ -95,6 +104,8 @@ export function FeaturedResearch() {
                   </Link>
                 </Button>
                 <div className="flex-1" />
+                
+                {/* Google Scholar */}
                 {r.scholar && (
                   <Button asChild variant="ghost" size="icon">
                     <a
@@ -102,11 +113,14 @@ export function FeaturedResearch() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Google Scholar"
+                      title="Google Scholar"
                     >
-                      <BookOpen className="h-4 w-4" />
+                      <GraduationCap className="h-4 w-4" />
                     </a>
                   </Button>
                 )}
+                
+                {/* ResearchGate */}
                 {r.researchgate && (
                   <Button asChild variant="ghost" size="icon">
                     <a
@@ -114,11 +128,14 @@ export function FeaturedResearch() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="ResearchGate"
+                      title="ResearchGate"
                     >
-                      <ExternalLink className="h-4 w-4" />
+                      <Database className="h-4 w-4" />
                     </a>
                   </Button>
                 )}
+                
+                {/* arXiv */}
                 {r.arXiv && (
                   <Button asChild variant="ghost" size="icon">
                     <a
@@ -126,11 +143,14 @@ export function FeaturedResearch() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="arXiv"
+                      title="arXiv Preprint"
                     >
-                      <ExternalLink className="h-4 w-4" />
+                      <BookOpen className="h-4 w-4" />
                     </a>
                   </Button>
                 )}
+                
+                {/* PDF */}
                 {r.livepdf && (
                   <Button asChild variant="ghost" size="icon">
                     <a
@@ -138,8 +158,9 @@ export function FeaturedResearch() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="PDF"
+                      title="View PDF"
                     >
-                      <ExternalLink className="h-4 w-4" />
+                      <FileText className="h-4 w-4" />
                     </a>
                   </Button>
                 )}

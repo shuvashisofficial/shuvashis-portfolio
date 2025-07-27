@@ -97,8 +97,8 @@ export const research: Research[] = [
       email: "shafiul.cse@aust.edu"
     }
   ],
-  publishDate: "May 1, 2025",
-  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&authuser=3&citation_for_view=1Rl7QUIAAAAJ:2osOgNQ5qMEC",
+  publishDate: "May 30, 2025",
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&citation_for_view=1Rl7QUIAAAAJ:eQOLeE2rZwMC",
   researchgate: "https://www.researchgate.net/publication/391329596_VR-FuseNet_A_Fusion_of_Heterogeneous_Fundus_Data_and_Explainable_Deep_Network_for_Diabetic_Retinopathy_Classification",
   arXiv: "https://arxiv.org/abs/2504.21464",
   livepdf: "https://arxiv.org/pdf/2504.21464",
@@ -162,7 +162,7 @@ export const research: Research[] = [
   ],
   publishDate: "May 9, 2025",
   scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&authuser=3&citation_for_view=1Rl7QUIAAAAJ:qjMakFHDy7sC",
-  researchgate: "",
+  researchgate: "https://www.researchgate.net/publication/391614676_Butterfly_Optimization_and_Deep_Learning_to_Classify_Heart_Sound_Signal",
   IEEE: "https://ieeexplore.ieee.org/abstract/document/10987967",
   livepdf: "https://drive.google.com/file/d/19oz5pDUxV03-lrtF6NYkJeF6zKTDopFN/view?usp=sharing",
   featured: true
@@ -381,10 +381,10 @@ export const research: Research[] = [
     }
   ],
   publishDate: "December 20, 2024",
-  scholar: "",  // Add if available
-  researchgate: "",  // Add if available
-  IEEE: "",
-  // livepdf: "https://drive.google.com/file/d/1U8tRRRoWoetj-x05RNqUiwNNn4LZ3JqC/view?usp=sharing",  // Optional: add Drive or direct PDF link
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&citation_for_view=1Rl7QUIAAAAJ:zYLM7Y9cAGgC",  // Add if available
+  researchgate: "https://www.researchgate.net/publication/392565127_An_Approach_Towards_Identifying_Bangladeshi_Leaf_Diseases_through_Transfer_Learning_and_XAI",  // Add if available
+  IEEE: "https://ieeexplore.ieee.org/abstract/document/11022335/",
+  livepdf: "https://arxiv.org/pdf/2505.16033",  // Optional: add Drive or direct PDF link
   featured: true
 },
 {
@@ -444,10 +444,10 @@ export const research: Research[] = [
     }
   ],
   publishDate: "December 22, 2024",
-  scholar: "",  // Add if available
-  researchgate: "",  // Add if available
-  IEEE: "",  // Add DOI link if available
-  // livepdf: "https://drive.google.com/file/d/15mnYXI2H95U7OEc6zDgsY5czwAJs-NVY/view?usp=sharing",  // Add if externally hosted
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&citation_for_view=1Rl7QUIAAAAJ:Y0pCki6q_DkC",  // Add if available
+  researchgate: "https://www.researchgate.net/publication/392579251_An_Exploratory_Approach_Towards_Investigating_and_Explaining_Vision_Transformer_and_Transfer_Learning_for_Brain_Disease_Detection?_sg%5B0%5D=3tHlXNuGvJ1qFbHew6KxuqkIALiz_sP9oE2xv2X2a6k3JD7frYmfVtnJEsWAbF7oJthbgwwQdcjPrp9q64oh7YLTFK3jt6gIdOzmbk-O.ymfagceWR69Z8qP-LWF1fO3T3vIAiLLyHF2TrfgqghSkxmYinmDyA0LpVw8JPYvxcq_eamsa-frzKKJMM5G1fQ&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19",  // Add if available
+  IEEE: "https://ieeexplore.ieee.org/abstract/document/11022039/",  // Add DOI link if available
+  livepdf: "https://arxiv.org/pdf/2505.16039",  // Add if externally hosted
   featured: true
 },
 {
@@ -500,10 +500,10 @@ export const research: Research[] = [
     }
   ],
   publishDate: "December 22, 2024",
-  scholar: "",  // Add if available
-  researchgate: "",  // Add if available
-  IEEE: "",  // Add DOI link if available
-  // livepdf: "https://drive.google.com/file/d/13Xbg7C3Q0KJahS0c6veZXJWliwVrwIuJ/view?usp=sharing",  // Add if externally hosted
+  scholar: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&citation_for_view=1Rl7QUIAAAAJ:Tyk-4Ss8FVUC",  // Add if available
+  researchgate: "https://www.researchgate.net/publication/391991614_Comprehensive_Lung_Disease_Detection_Using_Deep_Learning_Models_and_Hybrid_Chest_X-ray_Data_with_Explainable_AI?_sg%5B0%5D=l2EF4GoSfPIviMNmBfDD5TnLmlMi7-fRcoqmxgI2v-KL61NW5nnqYB534o2LD5iGMKKKUXMkYpsehip4_spoIy4aMs9eLHT219IzH5PO.nDrdGqw_fxk87YdwTFABT523ewlpY5iUkkUSXdhmMHNKfITMgv8adPy-hcpKorTdosmlHxFdBQR9dHSWRm76eg&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19",  // Add if available
+  IEEE: "https://ieeexplore.ieee.org/abstract/document/11022605",  // Add DOI link if available
+  livepdf: "https://arxiv.org/pdf/2505.16028",  // Add if externally hosted
   featured: true
 },
 {
@@ -537,9 +537,9 @@ export const research: Research[] = [
     }
   ],
   "publishDate": "December 22, 2024",
-  "scholar": "",
-  "researchgate": "",
-  "IEEE": "",  // Add DOI if available
+  "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&citation_for_view=1Rl7QUIAAAAJ:ufrVoPGSRksC",
+  "researchgate": "https://www.researchgate.net/publication/392638715_Fuzzy_Rank-Based_Ensemble_Learning_for_Eye_Disease_Classification_Using_Retinal_Images_A_Bangladeshi-Specific_Dataset_with_Explainable_AI_Integration?_sg%5B0%5D=yXtHwOgi7rJ71O2YX_O5dDQcZutB_5FLloYAdOcsFttYUKcT963LqGeut67yJov6br3Mc6n8rC77KPH10T6FkgfCk8Zp2ozjktreC8Je.-qpSL8kxS6w756RT09P8yW-85tg-79xq1JavHvooOJGSjJv1J8WlvVye4U-0Y817U720j8BinQajDuzHkqaBYg&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19",
+  "IEEE": "https://ieeexplore.ieee.org/abstract/document/11024855",  // Add DOI if available
   // "livepdf": "https://drive.google.com/file/d/1hG3x5tFb_GK1kgyJilo9MeNuMA1NfvQK/view?usp=sharing",
   "featured": true
 },
@@ -585,11 +585,10 @@ export const research: Research[] = [
     }
   ],
   "publishDate": "October 18, 2024",
-  "scholar": "",
-  "researchgate": "",
-  "IEEE": "",
+  "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1Rl7QUIAAAAJ&citation_for_view=1Rl7QUIAAAAJ:WF5omc3nYNoC",
+  "researchgate": "https://www.researchgate.net/publication/392477493_Advanced_CNN_and_Explainable_AI_Based_Architecture_for_Interpretable_Brain_MRI_Analysis?_sg%5B0%5D=6KM3FMA4oNITDTJHWk5Oa_DrCtriU3VQTEH_T1JFiwPrOPpT6rXo2zKapb8lI6FgivxizDKoU116gSCPNhkASSUCWNvhU5DHOZtQtqxw.mmzSVxUSYo3NS18ABF_WhNKyKfQeKx0x4OsdJ95Enpu1bU-ayIpuLDsUSatALM5v6Z197wajLeEwV2a74vTmGQ&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19",
   "ACM": "https://doi.org/10.1145/3723178.3723220",
-  "livepdf": "",
+  "livepdf": "https://dl.acm.org/doi/pdf/10.1145/3723178.3723220",
   "featured": true
 }
 
